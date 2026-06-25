@@ -1,0 +1,41 @@
+:root {
+  --ink: #0E1B2C;
+  --primary: #FF6A2B;
+  --blue: #2B6FFF;
+  --green: #16A06A;
+  --amber: #E0A100;
+  --red: #E2483B;
+  --bg: #EEF2F7;
+  --card: #FFFFFF;
+  --radius: 18px;
+  --muted: #7A8898;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Pretendard Variable', 'Pretendard', -apple-system, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  outline: none;
+}
